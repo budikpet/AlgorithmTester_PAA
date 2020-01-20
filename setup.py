@@ -3,15 +3,12 @@ from distutils.extension import Extension
 from Cython.Build import cythonize
 import numpy
 
-with open('README.rst') as f:
-    long_description = ''.join(f.readlines())
-
 setup(
-    name='algorithm_tester',
-    version='0.5',
-    description='Algorithms tester for MI-PAA.',
-    long_description=long_description,
-    keywords="algorithms,tester,budikpet, cli",
+    name='algorithm_tester_paa',
+    version='0.1',
+    description='Algorithms for MI-PAA, uses AlgorithmTester.',
+    #long_description=long_description,
+    keywords="algorithms,budikpet,cli",
     ext_modules = cythonize(
         [
             Extension('csa', ['package_algorithms/knapsack/csa.pyx'], include_dirs=[numpy.get_include()]),
@@ -19,7 +16,7 @@ setup(
         ],
         language_level=3),
     setup_requires=['pytest-runner'],
-    install_requires=['click>=6', 'numpy', 'cython'],
+    install_requires=['algorithm_tester'],
     tests_require=['pytest==5.0.1', 'flexmock'],
     
     # All these 'dev' packages can then be installed by 'pip install .[dev]'
@@ -32,13 +29,10 @@ setup(
     author='Petr Budík',
     author_email='budikpet@fit.cvut.cz',
     license='Public Domain',
-    url='https://github.com/budikpet/AlgorithmTester',
+    url='https://github.com/budikpet/AlgorithmTester_Paa',
     zip_safe=False,
     packages=find_packages(),
     entry_points={
-        'console_scripts': [
-            'run_tester = algorithm_tester:run_tester_cli_interface',
-        ],
         'algorithm_tester.plugins': [
             'algorithms = package_algorithms',
             'parsers = package_parsers'

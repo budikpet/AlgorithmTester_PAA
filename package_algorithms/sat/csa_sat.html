@@ -286,75 +286,6 @@ body.cython { font-family: courier; font-size: 12; }
 .cython.score-252 {background-color: #FFFF09;}
 .cython.score-253 {background-color: #FFFF09;}
 .cython.score-254 {background-color: #FFFF09;}
-.cython .hll { background-color: #ffffcc }
-.cython  { background: #f8f8f8; }
-.cython .c { color: #408080; font-style: italic } /* Comment */
-.cython .err { border: 1px solid #FF0000 } /* Error */
-.cython .k { color: #008000; font-weight: bold } /* Keyword */
-.cython .o { color: #666666 } /* Operator */
-.cython .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
-.cython .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-.cython .cp { color: #BC7A00 } /* Comment.Preproc */
-.cython .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
-.cython .c1 { color: #408080; font-style: italic } /* Comment.Single */
-.cython .cs { color: #408080; font-style: italic } /* Comment.Special */
-.cython .gd { color: #A00000 } /* Generic.Deleted */
-.cython .ge { font-style: italic } /* Generic.Emph */
-.cython .gr { color: #FF0000 } /* Generic.Error */
-.cython .gh { color: #000080; font-weight: bold } /* Generic.Heading */
-.cython .gi { color: #00A000 } /* Generic.Inserted */
-.cython .go { color: #888888 } /* Generic.Output */
-.cython .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
-.cython .gs { font-weight: bold } /* Generic.Strong */
-.cython .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-.cython .gt { color: #0044DD } /* Generic.Traceback */
-.cython .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
-.cython .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
-.cython .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
-.cython .kp { color: #008000 } /* Keyword.Pseudo */
-.cython .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
-.cython .kt { color: #B00040 } /* Keyword.Type */
-.cython .m { color: #666666 } /* Literal.Number */
-.cython .s { color: #BA2121 } /* Literal.String */
-.cython .na { color: #7D9029 } /* Name.Attribute */
-.cython .nb { color: #008000 } /* Name.Builtin */
-.cython .nc { color: #0000FF; font-weight: bold } /* Name.Class */
-.cython .no { color: #880000 } /* Name.Constant */
-.cython .nd { color: #AA22FF } /* Name.Decorator */
-.cython .ni { color: #999999; font-weight: bold } /* Name.Entity */
-.cython .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
-.cython .nf { color: #0000FF } /* Name.Function */
-.cython .nl { color: #A0A000 } /* Name.Label */
-.cython .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
-.cython .nt { color: #008000; font-weight: bold } /* Name.Tag */
-.cython .nv { color: #19177C } /* Name.Variable */
-.cython .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
-.cython .w { color: #bbbbbb } /* Text.Whitespace */
-.cython .mb { color: #666666 } /* Literal.Number.Bin */
-.cython .mf { color: #666666 } /* Literal.Number.Float */
-.cython .mh { color: #666666 } /* Literal.Number.Hex */
-.cython .mi { color: #666666 } /* Literal.Number.Integer */
-.cython .mo { color: #666666 } /* Literal.Number.Oct */
-.cython .sa { color: #BA2121 } /* Literal.String.Affix */
-.cython .sb { color: #BA2121 } /* Literal.String.Backtick */
-.cython .sc { color: #BA2121 } /* Literal.String.Char */
-.cython .dl { color: #BA2121 } /* Literal.String.Delimiter */
-.cython .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
-.cython .s2 { color: #BA2121 } /* Literal.String.Double */
-.cython .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
-.cython .sh { color: #BA2121 } /* Literal.String.Heredoc */
-.cython .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
-.cython .sx { color: #008000 } /* Literal.String.Other */
-.cython .sr { color: #BB6688 } /* Literal.String.Regex */
-.cython .s1 { color: #BA2121 } /* Literal.String.Single */
-.cython .ss { color: #19177C } /* Literal.String.Symbol */
-.cython .bp { color: #008000 } /* Name.Builtin.Pseudo */
-.cython .fm { color: #0000FF } /* Name.Function.Magic */
-.cython .vc { color: #19177C } /* Name.Variable.Class */
-.cython .vg { color: #19177C } /* Name.Variable.Global */
-.cython .vi { color: #19177C } /* Name.Variable.Instance */
-.cython .vm { color: #19177C } /* Name.Variable.Magic */
-.cython .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 </head>
 <body class="cython">
@@ -364,18 +295,18 @@ body.cython { font-family: courier; font-size: 12; }
     Click on a line that starts with a "<code>+</code>" to see the C code that Cython generated for it.
 </p>
 <p>Raw output: <a href="csa_sat.c">csa_sat.c</a></p>
-<div class="cython"><pre class="cython line score-8" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">01</span>: <span class="k">cimport</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span></pre>
+<div class="cython"><pre class="cython line score-8" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">01</span>: cimport numpy as np</pre>
 <pre class='cython code score-8 '>  __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyDict_NewPresized</span>(0);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   if (<span class='py_c_api'>PyDict_SetItem</span>(__pyx_d, __pyx_n_s_test, __pyx_t_1) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 1, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_1); __pyx_t_1 = 0;
-</pre><pre class="cython line score-0">&#xA0;<span class="">02</span>: <span class="k">cimport</span> <span class="nn">cython</span></pre>
+</pre><pre class="cython line score-0">&#xA0;<span class="">02</span>: cimport cython</pre>
 <pre class="cython line score-0">&#xA0;<span class="">03</span>: </pre>
-<pre class="cython line score-0">&#xA0;<span class="">04</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">boundscheck</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>  <span class="c"># Deactivate bounds checking</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">05</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">wraparound</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>   <span class="c"># Deactivate negative indexes checking</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">06</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">initializedcheck</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">07</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">cdivision</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">08</span>: <span class="k">cdef</span> (<span class="kt">void</span>) <span class="nf">add_invalid_literals</span><span class="p">(</span><span class="nb">long</span><span class="p">[:]</span> <span class="n">invalid_literals_per_var</span><span class="p">,</span> <span class="nb">long</span><span class="p">[:]</span> <span class="n">invalid_literals_per_var_helper</span><span class="p">):</span></pre>
+<pre class="cython line score-0">&#xA0;<span class="">04</span>: @cython.boundscheck(False)  # Deactivate bounds checking</pre>
+<pre class="cython line score-0">&#xA0;<span class="">05</span>: @cython.wraparound(False)   # Deactivate negative indexes checking</pre>
+<pre class="cython line score-0">&#xA0;<span class="">06</span>: @cython.initializedcheck(False)</pre>
+<pre class="cython line score-0">&#xA0;<span class="">07</span>: @cython.cdivision(True)</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">08</span>: cdef (void) add_invalid_literals(long[:] invalid_literals_per_var, long[:] invalid_literals_per_var_helper):</pre>
 <pre class='cython code score-0 '>static void __pyx_f_7csa_sat_add_invalid_literals(__Pyx_memviewslice __pyx_v_invalid_literals_per_var, __Pyx_memviewslice __pyx_v_invalid_literals_per_var_helper) {
   size_t __pyx_v_i;
   size_t __pyx_v_I;
@@ -385,26 +316,26 @@ body.cython { font-family: courier; font-size: 12; }
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
 }
-</pre><pre class="cython line score-0">&#xA0;<span class="">09</span>:     <span class="k">cdef</span> <span class="kt">size_t</span> <span class="nf">i</span><span class="p">,</span> <span class="nf">I</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">10</span>:     <span class="n">I</span> <span class="o">=</span> <span class="n">invalid_literals_per_var</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mf">0</span><span class="p">]</span></pre>
+</pre><pre class="cython line score-0">&#xA0;<span class="">09</span>:     cdef size_t i, I</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">10</span>:     I = invalid_literals_per_var.shape[0]</pre>
 <pre class='cython code score-0 '>  __pyx_v_I = (__pyx_v_invalid_literals_per_var.shape[0]);
 </pre><pre class="cython line score-0">&#xA0;<span class="">11</span>: </pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">12</span>:     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">I</span><span class="p">):</span></pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">12</span>:     for i in range(I):</pre>
 <pre class='cython code score-0 '>  __pyx_t_1 = __pyx_v_I;
   __pyx_t_2 = __pyx_t_1;
   for (__pyx_t_3 = 0; __pyx_t_3 &lt; __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">13</span>:         <span class="n">invalid_literals_per_var</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+=</span> <span class="n">invalid_literals_per_var_helper</span><span class="p">[</span><span class="n">i</span><span class="p">]</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">13</span>:         invalid_literals_per_var[i] += invalid_literals_per_var_helper[i]</pre>
 <pre class='cython code score-0 '>    __pyx_t_4 = __pyx_v_i;
     __pyx_t_5 = __pyx_v_i;
     *((long *) ( /* dim=0 */ (__pyx_v_invalid_literals_per_var.data + __pyx_t_5 * __pyx_v_invalid_literals_per_var.strides[0]) )) += (*((long *) ( /* dim=0 */ (__pyx_v_invalid_literals_per_var_helper.data + __pyx_t_4 * __pyx_v_invalid_literals_per_var_helper.strides[0]) )));
   }
 </pre><pre class="cython line score-0">&#xA0;<span class="">14</span>: </pre>
-<pre class="cython line score-0">&#xA0;<span class="">15</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">boundscheck</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>  <span class="c"># Deactivate bounds checking</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">16</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">wraparound</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>   <span class="c"># Deactivate negative indexes checking</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">17</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">initializedcheck</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">18</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">cdivision</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span></pre>
-<pre class="cython line score-65" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">19</span>: <span class="k">cpdef</span> (<span class="nf">int</span><span class="p">,</span> <span class="kt">bint</span>) <span class="nf">check_validity</span><span class="p">(</span><span class="nb">long</span><span class="p">[:]</span> <span class="n">invalid_literals_per_var</span><span class="p">,</span> <span class="nb">long</span><span class="p">[:]</span> <span class="n">invalid_literals_per_var_helper</span><span class="p">,</span> <span class="nb">long</span><span class="p">[:,</span> <span class="p">:]</span> <span class="n">clauses</span><span class="p">,</span> <span class="nb">long</span><span class="p">[:]</span> <span class="n">solution</span><span class="p">,</span> <span class="nb">int</span> <span class="n">num_of_clauses</span><span class="p">):</span></pre>
+<pre class="cython line score-0">&#xA0;<span class="">15</span>: @cython.boundscheck(False)  # Deactivate bounds checking</pre>
+<pre class="cython line score-0">&#xA0;<span class="">16</span>: @cython.wraparound(False)   # Deactivate negative indexes checking</pre>
+<pre class="cython line score-0">&#xA0;<span class="">17</span>: @cython.initializedcheck(False)</pre>
+<pre class="cython line score-0">&#xA0;<span class="">18</span>: @cython.cdivision(True)</pre>
+<pre class="cython line score-65" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">19</span>: cpdef (int, bint) check_validity(long[:] invalid_literals_per_var, long[:] invalid_literals_per_var_helper, long[:, :] clauses, long[:] solution, int num_of_clauses):</pre>
 <pre class='cython code score-65 '>static PyObject *__pyx_pw_7csa_sat_1check_validity(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static __pyx_ctuple_int__and_int __pyx_f_7csa_sat_check_validity(__Pyx_memviewslice __pyx_v_invalid_literals_per_var, __Pyx_memviewslice __pyx_v_invalid_literals_per_var_helper, __Pyx_memviewslice __pyx_v_clauses, __Pyx_memviewslice __pyx_v_solution, int __pyx_v_num_of_clauses, CYTHON_UNUSED int __pyx_skip_dispatch) {
   int __pyx_v_num_of_satisfied_clauses;
@@ -554,22 +485,22 @@ struct __pyx_ctuple_int__and_int {
   int f0;
   int f1;
 };
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">20</span>:     <span class="k">cdef</span> <span class="kt">int</span> <span class="nf">num_of_satisfied_clauses</span> <span class="o">=</span> <span class="mf">0</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">20</span>:     cdef int num_of_satisfied_clauses = 0</pre>
 <pre class='cython code score-0 '>  __pyx_v_num_of_satisfied_clauses = 0;
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">21</span>:     <span class="k">cdef</span> <span class="kt">bint</span> <span class="nf">is_satisfied</span> <span class="o">=</span> <span class="bp">False</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">21</span>:     cdef bint is_satisfied = False</pre>
 <pre class='cython code score-0 '>  __pyx_v_is_satisfied = 0;
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">22</span>:     <span class="k">cdef</span> <span class="kt">bint</span> <span class="nf">is_valid</span> <span class="o">=</span> <span class="bp">False</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">22</span>:     cdef bint is_valid = False</pre>
 <pre class='cython code score-0 '>  __pyx_v_is_valid = 0;
-</pre><pre class="cython line score-0">&#xA0;<span class="">23</span>:     <span class="k">cdef</span> <span class="kt">int</span> <span class="nf">value</span><span class="p">,</span> <span class="nf">index</span><span class="p">,</span> <span class="nf">sol_value</span></pre>
+</pre><pre class="cython line score-0">&#xA0;<span class="">23</span>:     cdef int value, index, sol_value</pre>
 <pre class="cython line score-0">&#xA0;<span class="">24</span>: </pre>
-<pre class="cython line score-0">&#xA0;<span class="">25</span>:     <span class="c"># Go through the clauses memoryview using indexes</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">26</span>:     <span class="k">cdef</span> <span class="kt">size_t</span> <span class="nf">i</span><span class="p">,</span> <span class="nf">j</span><span class="p">,</span> <span class="nf">I</span><span class="p">,</span> <span class="nf">J</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">27</span>:     <span class="n">I</span> <span class="o">=</span> <span class="n">clauses</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mf">0</span><span class="p">]</span></pre>
+<pre class="cython line score-0">&#xA0;<span class="">25</span>:     # Go through the clauses memoryview using indexes</pre>
+<pre class="cython line score-0">&#xA0;<span class="">26</span>:     cdef size_t i, j, I, J</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">27</span>:     I = clauses.shape[0]</pre>
 <pre class='cython code score-0 '>  __pyx_v_I = (__pyx_v_clauses.shape[0]);
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">28</span>:     <span class="n">J</span> <span class="o">=</span> <span class="n">clauses</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mf">1</span><span class="p">]</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">28</span>:     J = clauses.shape[1]</pre>
 <pre class='cython code score-0 '>  __pyx_v_J = (__pyx_v_clauses.shape[1]);
 </pre><pre class="cython line score-0">&#xA0;<span class="">29</span>: </pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">30</span>:     <span class="n">invalid_literals_per_var</span><span class="p">[:]</span> <span class="o">=</span> <span class="mf">0</span></pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">30</span>:     invalid_literals_per_var[:] = 0</pre>
 <pre class='cython code score-0 '>  {
       long __pyx_temp_scalar = 0;
       {
@@ -585,15 +516,15 @@ struct __pyx_ctuple_int__and_int {
       }
   }
 </pre><pre class="cython line score-0">&#xA0;<span class="">31</span>: </pre>
-<pre class="cython line score-0">&#xA0;<span class="">32</span>:     <span class="c"># Check all variables of all clauses</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">33</span>:     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">I</span><span class="p">):</span></pre>
+<pre class="cython line score-0">&#xA0;<span class="">32</span>:     # Check all variables of all clauses</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">33</span>:     for i in range(I):</pre>
 <pre class='cython code score-0 '>  __pyx_t_1 = __pyx_v_I;
   __pyx_t_2 = __pyx_t_1;
   for (__pyx_t_3 = 0; __pyx_t_3 &lt; __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">34</span>:         <span class="n">is_satisfied</span> <span class="o">=</span> <span class="bp">False</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">34</span>:         is_satisfied = False</pre>
 <pre class='cython code score-0 '>    __pyx_v_is_satisfied = 0;
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">35</span>:         <span class="n">invalid_literals_per_var_helper</span><span class="p">[:]</span> <span class="o">=</span> <span class="mf">0</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">35</span>:         invalid_literals_per_var_helper[:] = 0</pre>
 <pre class='cython code score-0 '>    {
         long __pyx_temp_scalar = 0;
         {
@@ -609,28 +540,28 @@ struct __pyx_ctuple_int__and_int {
         }
     }
 </pre><pre class="cython line score-0">&#xA0;<span class="">36</span>: </pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">37</span>:         <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">J</span><span class="p">):</span></pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">37</span>:         for j in range(J):</pre>
 <pre class='cython code score-0 '>    __pyx_t_4 = __pyx_v_J;
     __pyx_t_5 = __pyx_t_4;
     for (__pyx_t_6 = 0; __pyx_t_6 &lt; __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_j = __pyx_t_6;
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">38</span>:             <span class="n">value</span> <span class="o">=</span> <span class="n">clauses</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">38</span>:             value = clauses[i, j]</pre>
 <pre class='cython code score-0 '>      __pyx_t_7 = __pyx_v_i;
       __pyx_t_8 = __pyx_v_j;
       __pyx_v_value = (*((long *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_clauses.data + __pyx_t_7 * __pyx_v_clauses.strides[0]) ) + __pyx_t_8 * __pyx_v_clauses.strides[1]) )));
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">39</span>:             <span class="k">if</span> <span class="n">value</span> <span class="o">!=</span> <span class="mf">0</span><span class="p">:</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">39</span>:             if value != 0:</pre>
 <pre class='cython code score-0 '>      __pyx_t_9 = ((__pyx_v_value != 0) != 0);
       if (__pyx_t_9) {
 /* … */
       }
     }
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">40</span>:                 <span class="n">index</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">-</span> <span class="mf">1</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">40</span>:                 index = abs(value) - 1</pre>
 <pre class='cython code score-0 '>        __pyx_t_10 = abs(__pyx_v_value);<span class='error_goto'> if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 40, __pyx_L1_error)</span>
         __pyx_v_index = (__pyx_t_10 - 1);
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">41</span>:                 <span class="n">sol_value</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">solution</span><span class="p">[</span><span class="n">index</span><span class="p">]</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">41</span>:                 sol_value: int = solution[index]</pre>
 <pre class='cython code score-0 '>        __pyx_t_11 = __pyx_v_index;
         __pyx_v_sol_value = (*((long *) ( /* dim=0 */ (__pyx_v_solution.data + __pyx_t_11 * __pyx_v_solution.strides[0]) )));
-</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">42</span>:                 <span class="k">if</span> <span class="p">(</span><span class="n">sol_value</span> <span class="o">==</span> <span class="mf">0</span> <span class="ow">and</span> <span class="n">value</span> <span class="o">&lt;</span> <span class="mf">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">sol_value</span> <span class="o">==</span> <span class="mf">1</span> <span class="ow">and</span> <span class="n">value</span> <span class="o">&gt;</span> <span class="mf">0</span><span class="p">):</span></pre>
+</pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">42</span>:                 if (sol_value == 0 and value &lt; 0) or (sol_value == 1 and value &gt; 0):</pre>
 <pre class='cython code score-0 '>        __pyx_t_12 = ((__pyx_v_sol_value == 0) != 0);
         if (!__pyx_t_12) {
           goto __pyx_L10_next_or;
@@ -656,40 +587,40 @@ struct __pyx_ctuple_int__and_int {
 /* … */
           goto __pyx_L8;
         }
-</pre><pre class="cython line score-0">&#xA0;<span class="">43</span>:                     <span class="c"># Clause satisfied</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">44</span>:                     <span class="n">is_satisfied</span> <span class="o">=</span> <span class="bp">True</span></pre>
+</pre><pre class="cython line score-0">&#xA0;<span class="">43</span>:                     # Clause satisfied</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">44</span>:                     is_satisfied = True</pre>
 <pre class='cython code score-0 '>          __pyx_v_is_satisfied = 1;
-</pre><pre class="cython line score-0">&#xA0;<span class="">45</span>:                 <span class="k">else</span><span class="p">:</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">46</span>:                     <span class="c"># Clause not satisfied</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">47</span>:                     <span class="n">invalid_literals_per_var_helper</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+=</span> <span class="mf">1</span></pre>
+</pre><pre class="cython line score-0">&#xA0;<span class="">45</span>:                 else:</pre>
+<pre class="cython line score-0">&#xA0;<span class="">46</span>:                     # Clause not satisfied</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">47</span>:                     invalid_literals_per_var_helper[index] += 1</pre>
 <pre class='cython code score-0 '>        /*else*/ {
           __pyx_t_13 = __pyx_v_index;
           *((long *) ( /* dim=0 */ (__pyx_v_invalid_literals_per_var_helper.data + __pyx_t_13 * __pyx_v_invalid_literals_per_var_helper.strides[0]) )) += 1;
         }
         __pyx_L8:;
 </pre><pre class="cython line score-0">&#xA0;<span class="">48</span>: </pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">49</span>:         <span class="k">if</span> <span class="n">is_satisfied</span><span class="p">:</span></pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">49</span>:         if is_satisfied:</pre>
 <pre class='cython code score-0 '>    __pyx_t_9 = (__pyx_v_is_satisfied != 0);
     if (__pyx_t_9) {
 /* … */
       goto __pyx_L13;
     }
-</pre><pre class="cython line score-0">&#xA0;<span class="">50</span>:             <span class="c"># Last clause was satisfied</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">51</span>:             <span class="n">num_of_satisfied_clauses</span> <span class="o">+=</span> <span class="mf">1</span></pre>
+</pre><pre class="cython line score-0">&#xA0;<span class="">50</span>:             # Last clause was satisfied</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">51</span>:             num_of_satisfied_clauses += 1</pre>
 <pre class='cython code score-0 '>      __pyx_v_num_of_satisfied_clauses = (__pyx_v_num_of_satisfied_clauses + 1);
-</pre><pre class="cython line score-0">&#xA0;<span class="">52</span>:         <span class="k">else</span><span class="p">:</span></pre>
-<pre class="cython line score-0">&#xA0;<span class="">53</span>:             <span class="c"># Last clause was not satisfied, add it&#39;s variables to invalid_literals_per_var</span></pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">54</span>:             <span class="n">add_invalid_literals</span><span class="p">(</span><span class="n">invalid_literals_per_var</span><span class="p">,</span> <span class="n">invalid_literals_per_var_helper</span><span class="p">)</span></pre>
+</pre><pre class="cython line score-0">&#xA0;<span class="">52</span>:         else:</pre>
+<pre class="cython line score-0">&#xA0;<span class="">53</span>:             # Last clause was not satisfied, add it's variables to invalid_literals_per_var</pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">54</span>:             add_invalid_literals(invalid_literals_per_var, invalid_literals_per_var_helper)</pre>
 <pre class='cython code score-0 '>    /*else*/ {
       __pyx_f_7csa_sat_add_invalid_literals(__pyx_v_invalid_literals_per_var, __pyx_v_invalid_literals_per_var_helper);
     }
     __pyx_L13:;
   }
 </pre><pre class="cython line score-0">&#xA0;<span class="">55</span>: </pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">56</span>:     <span class="n">is_valid</span> <span class="o">=</span> <span class="n">num_of_clauses</span> <span class="o">==</span> <span class="n">num_of_satisfied_clauses</span></pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">56</span>:     is_valid = num_of_clauses == num_of_satisfied_clauses</pre>
 <pre class='cython code score-0 '>  __pyx_v_is_valid = (__pyx_v_num_of_clauses == __pyx_v_num_of_satisfied_clauses);
 </pre><pre class="cython line score-0">&#xA0;<span class="">57</span>: </pre>
-<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">58</span>:     <span class="k">return</span> <span class="p">(</span><span class="n">num_of_satisfied_clauses</span><span class="p">,</span> <span class="n">is_valid</span><span class="p">)</span></pre>
+<pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">58</span>:     return (num_of_satisfied_clauses, is_valid)</pre>
 <pre class='cython code score-0 '>  __pyx_t_14.f0 = __pyx_v_num_of_satisfied_clauses;
   __pyx_t_14.f1 = __pyx_v_is_valid;
   __pyx_r = __pyx_t_14;
