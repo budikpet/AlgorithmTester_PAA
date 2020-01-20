@@ -29,7 +29,7 @@ setup(
     author='Petr Budík',
     author_email='budikpet@fit.cvut.cz',
     license='Public Domain',
-    url='https://github.com/budikpet/AlgorithmTester_Paa',
+    url='https://github.com/budikpet/AlgorithmTester_PAA',
     zip_safe=False,
     packages=find_packages(),
     entry_points={
