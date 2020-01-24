@@ -14,6 +14,12 @@ class KnapsackParser(Parser):
 
         return input_file_name.replace(".dat", f'_{click_args["algorithm_name"]}_sol.dat')
 
+    def get_num_of_instances(self, context: AlgTesterContext, input_file: IO) -> int:
+        for index, _ in enumerate(input_file):
+            pass
+
+        return index + 1
+
     def get_next_instance(self, input_file: IO) -> Dict[str, object]:
         instance: str = input_file.readline()
 
