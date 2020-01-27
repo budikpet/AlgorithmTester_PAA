@@ -1,5 +1,5 @@
 ALG="SA_SAT_V3"
-CONC="Files"
+CONC="files"
 RESULTS_DIR="tester_results_TEST"
 
 init_temp=1000
