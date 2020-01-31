@@ -16,6 +16,9 @@ class SATParser(Parser):
 
         return input_file_name.replace(".mwcnf", f'_{click_args["algorithm_name"]}_sol.mwcnf')
 
+    def get_instance_identifier(self, instance_data: Dict[str, object]) -> str:
+        return "{}".format(instance_data["output_filename"])
+
     def get_num_of_instances(self, context: AlgTesterContext, input_file: IO) -> int:
         return 1
 

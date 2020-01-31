@@ -6,9 +6,6 @@ from math import exp
 from algorithm_tester_common.tester_dataclasses import Algorithm, AlgTesterContext, DynamicClickOption
 from package_algorithms.sat.alg_dataclasses import TaskSAT, SolutionSA, base_columns
 import csa_sat
-# TODO: Otestování dat, které mám
-# TODO: Algoritmus V4 se zvyšováním počtu kroků?
-# TODO: Vypočítat i data, pro která nemám řešení? Použít odchylku vypočteného počtu splněných klauzulí od počtu všech klauzulí.
 
 class SimulatedAnnealing_SAT_V1(Algorithm):
     """ 
